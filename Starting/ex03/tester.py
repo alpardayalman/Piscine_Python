@@ -4,7 +4,7 @@ Garlic = float("NaN")
 Zero = 0
 Empty = ''
 Fake = False
-print(float('NaN'))
+
 NULL_not_found(Nothing)
 NULL_not_found(Garlic)
 NULL_not_found(Zero)

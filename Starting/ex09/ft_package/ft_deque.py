@@ -1,7 +1,8 @@
 class Deque:
     """
     Deque class
-    write a class that implements a deque (double-ended queue) in Python. It should have the following methods:
+    write a class that implements a deque (double-ended queue) in Python. 
+        It should have the following methods:
     - add_first(item): Add an item to the front of the deque.
     - add_last(item): Add an item to the end of the deque.
     - remove_first(): Remove the first item in the deque and return it.
@@ -10,7 +11,8 @@ class Deque:
     - size(): Return the number of items in the deque.
     - peek_first(): Return the first item in the deque without removing it.
     - peek_last(): Return the last item in the deque without removing it.
-    - display_deque(): Print the items in the deque from first to last, all on one line.
+    - display_deque(): Print the items in the deque from first to last,
+        all on one line.
     """
     def __init__(self):
         self.elements = []
@@ -23,7 +25,7 @@ class Deque:
 
     def add_first(self, item):
         if isinstance(item, Deque):
-            self.elements.extend(reversed(item.elements))  # Add elements from the end first
+            self.elements.extend(reversed(item.elements))
         else:
             self.elements.append(item)
 

@@ -1,1 +1,1 @@
-from ft_deque import Deque
+from .ft_deque import Deque

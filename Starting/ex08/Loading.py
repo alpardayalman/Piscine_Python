@@ -1,5 +1,4 @@
-import shutil
-
+# import shutil
 
 def ft_tqdm(lst: range) -> None:
     """
@@ -18,7 +17,8 @@ def ft_tqdm(lst: range) -> None:
         yield statement is encountered.
     """
     total = len(lst)
-    progress_bar_width = shutil.get_terminal_size().columns - 40
+    # progress_bar_width = shutil.get_terminal_size().columns - 40
+    progress_bar_width = 276
 
     for i, item in enumerate(lst, start=1):
         progress = int(i / total * progress_bar_width)
