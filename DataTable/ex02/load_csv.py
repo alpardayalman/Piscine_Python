@@ -23,3 +23,4 @@ def load(path: str) -> pd.DataFrame:
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
         return None
+

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-def main(path: str = 'life_expectancy_years.csv'):
+def main(path: str = '../life_expectancy_years.csv'):
     """
     Load the dataset and plot the life expectancy of Turkey
     x = life_expectancy_years.csv country
